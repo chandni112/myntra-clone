@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hotel.css"">
+    <title>Travel Agency</title>
+</head>
+
+<body>
+    <header>
+        <h1>Explore the World with rathore Travel Agency</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="main-content">
+        <h2>Welcome to Our rathore Travel Agency</h2>
+        <p>Discover amazing destinations and plan your next adventure with us!</p>
+        <div><img src="travel-hd.jpg" alt=""></div>
+
+        <div class="booking-form">
+            <h3>Book Your Trip</h3>
+            <form id="bookingForm">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="dates">Dates:</label>
+                <input type="text" id="dates" name="dates" required>
+
+                <label for="people">Number of People:</label>
+                <input type="number" id="people" name="people" required>
+
+                <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    </footer>
+
+    <script src="hotel.js"></script>
+</body>
+
+</html>
+
