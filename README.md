@@ -1,2 +1,1 @@
-# myntra-clone
-using html,css,javacsript
+The html end to end project
